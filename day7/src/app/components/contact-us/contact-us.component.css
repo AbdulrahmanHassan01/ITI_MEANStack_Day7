@@ -1,0 +1,41 @@
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+  
+h2 {
+    margin-bottom: 20px;
+}
+  
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+  input,
+  textarea,
+  button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+  
+textarea {
+    resize: vertical;
+}
+  
+button {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #003399;
+}

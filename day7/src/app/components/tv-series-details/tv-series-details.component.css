@@ -1,0 +1,75 @@
+.Action {
+    background-color: #ff5733;
+}
+
+.Adventure {
+    background-color: #ff8c00;
+}
+
+.Animation {
+    background-color: #ffb6c1;
+}
+
+.Comedy {
+    background-color: #ffc300; 
+}
+
+.Crime {
+    background-color: #2e4053;
+}
+
+.Documentary {
+    background-color: #85c1e9;
+}
+
+.Drama {
+    background-color: #900c3f; 
+}
+
+.Family {
+    background-color: #ffcccb; 
+}
+
+.Fantasy {
+    background-color: #9b59b6;
+}
+
+.History {
+    background-color: #f5b041;
+}
+
+.Horror {
+    background-color: #2c3e50;
+}
+
+.Music {
+    background-color: #8e44ad;
+}
+
+.Mystery {
+    background-color: #34495e;
+}
+
+.Romance {
+    background-color: #e91e63;
+}
+
+.Science-Fiction {
+    background-color: #3498db; 
+}
+
+.Tv-Movie {
+    background-color: #d5dbdb; 
+}
+
+.Thriller {
+    background-color: #c0392b; 
+}
+
+.War {
+    background-color: #7d3c98; 
+}
+
+.Western {
+    background-color: #d35400; 
+}

@@ -1,0 +1,24 @@
+<div class="buttons-container"><button
+    class="nav-button"
+    (click)="prevPage()" [disabled]="page <= 1">Previous</button>
+  <button class="nav-button" (click)="nextPage()"
+    [disabled]="page >=totalPages">Next</button></div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div *ngFor="let series of allSeries">
+        <div class="col">
+            <div class="card">
+            <a [routerLink]="['/details', series.id]">
+            <img [src]="'https://image.tmdb.org/t/p/original/' + series.poster_path" alt="Show Poster" class="card-img-top"/></a>
+            <div class="card-body">
+                <h4>{{ series.name | uppercase }}</h4>
+                <p>{{ series.first_air_date | date : "short" }}</p>
+                <h6>{{ series.vote_average }}</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="allSeries.length === 0">
+        <h2>No TV Shows Found</h2>
+    </div>
+</div>

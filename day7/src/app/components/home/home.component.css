@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+  
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.content {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+  
+.section {
+    margin: 20px 0;
+}

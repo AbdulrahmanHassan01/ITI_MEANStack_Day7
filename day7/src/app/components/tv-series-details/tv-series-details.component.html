@@ -1,0 +1,17 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    
+    <div class="col">
+        <div class="card">
+            <img [src]="'https://image.tmdb.org/t/p/original/' + series.poster_path" alt="Show Poster" class="card-img-top"/>
+            <div class="card-body">
+                <h4>{{ series.name | uppercase }}</h4>
+                <p>{{ series.first_air_date | date : "short" }}</p>
+                <h6>{{ series.vote_average }}</h6>
+                @for (genre of series.genres; track $index) {
+                    <span class="badge m-1" [ngClass]="genre.name">{{ genre.name }}</span>
+                    }
+            </div>
+        </div>
+    </div>
+
+</div>

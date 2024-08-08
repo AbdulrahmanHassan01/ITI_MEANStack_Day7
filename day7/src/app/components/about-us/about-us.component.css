@@ -1,0 +1,15 @@
+.about-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+  
+h2 {
+    margin-bottom: 15px;
+}
+  
+p {
+    margin-bottom: 10px;
+}
